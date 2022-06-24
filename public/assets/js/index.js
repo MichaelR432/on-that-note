@@ -180,5 +180,4 @@ if (window.location.pathname === '/notes') {
   noteText.addEventListener('keyup', handleRenderSaveBtn);
 }
 
-// calling the initial note list from db
 getAndRenderNotes();
